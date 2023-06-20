@@ -18,7 +18,8 @@
     "mongodb": "5.6",
     "mongoose": "^7.3.0",
     "mongoose-auto-increment": "^5.0.1",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "radium": "^0.26.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
