@@ -32,7 +32,9 @@ const EditUser = () => {
   const { id } = useParams();
 
   useEffect(() => {
+
     loadUserDetails();
+
   }, [])
 
   const loadUserDetails = async () => {
@@ -77,7 +79,7 @@ const EditUser = () => {
         />
       </FormControl>
       <FormControl>
-        <Button variant="contained" onClick={() => editUserDetails()}>
+        <Button variant="contained" onClick={() => editUserDetails()} >
           Edit User
         </Button>
       </FormControl>
